@@ -20,6 +20,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "move": "mv build ../public",
+    "public": "npm run build && npm run move",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
